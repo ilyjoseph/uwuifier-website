@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(255,235,235);
+    background: radial-gradient(circle, rgba(255,235,235,1) 0%, rgba(255,131,148,1) 100%);
+    perspective: 1000px;
+}
+
+.container {
+    background: none;
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    transform-style: preserve-3d;
+    min-height: 80vh;
+    width: 35rem;
+    border-radius: 30px;
+    padding: 0rem 5rem;
+    background: #FEACB2;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
+}
+
+.uwu {
+    min-height: 35vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.uwu img{
+    width: 20rem;
+}
+
+.info h1{
+    font-size: 3rem;
+    color: #ffffff;
+    
+}
+.info h3{
+    font-size: 1.3rem;
+    padding: 0rem 0rem 2rem 0rem;
+    color: #ffffff;
+    font-weight: lighter;
+}
+
+.buttons button{
+    margin: 0.5rem 0;
+    transition-duration: 0.3s;
+    padding: 0.5rem 0.5rem;
+    width: 100%;
+    background-color: #ffb7bc;
+    border: none;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+    letter-spacing: 0.2em;
+    text-decoration: none;
+    color: #ffffff;
+    outline:none !important;
+    font-weight: normal;
+}
+
+.vote{
+    margin: 0.5rem 0;
+    display: flex;
+    flex-direction: column;
+    transition-duration: 0.3s;
+    padding: 0.5rem 0.5rem;
+    background-color: #ffb7bc;
+    border: none;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    letter-spacing: 0.2em;
+    text-decoration: none;
+    color: #ffffff;
+    outline:none !important;
+    font-weight: normal;
+}
+.votediv{
+    padding: 0 0;
+    display: flex;
+    justify-content: space-around;
+}
+.votediv span{
+    font-size: 1rem;
+}
+.vobjects {
+    margin: 0.5rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.vote a{
+    font-size: 0.75rem;
+    text-decoration: none;
+    margin: 0rem 1;
+    transition-duration: 0.3s;
+    padding: 0.5rem 0.5rem;
+    border: none;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+    cursor: pointer;
+    color: #ffffff;
+    font-weight: normal;
+}
+a:hover {
+    background: #ffcfcf;
+    color: rgb(255, 136, 146);
+}
+a:active {
+    background: #fd9898;
+    color: rgb(255, 255, 255);
+}
+
+.invite {
+    margin: 3rem 0rem;
+}
+.invite button {
+    transition-duration: 0.3s;
+    width: 100%;
+    padding: 1rem 0rem;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    background: rgb(255, 151, 168);
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: large;
+    letter-spacing: 0.2em;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    outline:none !important;
+    font-weight: bold;
+}
+button:hover {
+    background: #ffcfcf;
+    color: rgb(255, 136, 146);
+}
+button:active {
+    background: #fd9898;
+    color: rgb(255, 255, 255);
+}
