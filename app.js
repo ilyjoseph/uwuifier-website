@@ -1,9 +1,11 @@
 const card = document.querySelector(".card");
 const container = document.querySelector(".container");
-// const title = document.querySelector('.title');
-// const uwu = document.querySelector('.uwu img');
-// const buttons = document.querySelector('.buttons');
-// const title = document.querySelector('.invite');
+
+const title = document.querySelector(".title");
+const description = document.querySelector(".info h3");
+const uwu = document.querySelector(".uwu img");
+const buttons = document.querySelector(".buttons");
+const invite = document.querySelector(".invite button");
 
 //Moving Animation Event
 container.addEventListener("mousemove", (e) => {
@@ -13,12 +15,24 @@ container.addEventListener("mousemove", (e) => {
 });
 
 //Animate In
-container.addEventListener('mouseenter', e => {
-    card.style.transition = '0.1s ease';
+container.addEventListener("mouseenter", e => {
+    card.style.transition = "0.1s ease";
+    //Popout
+    title.style.transform = "translateZ(75px)";
+    description.style.transform = "translateZ(50px)";
+    uwu.style.transform = "translateZ(50px)";
+    buttons.style.transform = "translateZ(50px)";
+    invite.style.transform = "translateZ(80px)";
 });
 
 //Animate Out
-container.addEventListener('mouseleave', e => {
+container.addEventListener("mouseleave", e => {
     card.style.transition = "all 0.5s ease";
     card.style.transform = `rotateY(0deg) rotateX(0deg)`;
+    //Popback
+    title.style.transform = "translateZ(0px)";
+    description.style.transform = "translateZ(0px)";
+    uwu.style.transform = "translateZ(0px)";
+    buttons.style.transform = "translateZ(0px)";
+    invite.style.transform = "translateZ(0px)";
 });
