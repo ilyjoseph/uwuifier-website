@@ -40,20 +40,25 @@ body {
 }
 .uwu img{
     width: 20rem;
+    transition: all 0.5s ease-out;
 }
 
 .info h1{
     font-size: 3rem;
     color: #ffffff;
-    
+    transition: all 0.5s ease-out;
 }
 .info h3{
     font-size: 1.3rem;
     padding: 0rem 0rem 2rem 0rem;
     color: #ffffff;
     font-weight: lighter;
+    transition: all 0.5s ease-out;
 }
 
+.buttons {
+    transition: all 0.5s ease-out;
+}
 .buttons button{
     margin: 0.5rem 0;
     transition-duration: 0.3s;
@@ -127,10 +132,11 @@ a:active {
 }
 
 .invite {
-    margin: 3rem 0rem;
+    margin: 1rem 0rem 4rem 0rem;
 }
 .invite button {
     transition-duration: 0.3s;
+    transition: all 0.5s ease-out;
     width: 100%;
     padding: 1rem 0rem;
     border: none;
