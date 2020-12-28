@@ -106,9 +106,9 @@ hr.horizontal-seperator{
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
     background: rgb(255, 151, 168);
     font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-size: large;
-    letter-spacing: 0.2em;
+    font-weight: lighter;
+    font-size: small;
+    letter-spacing: 10rem;
     color: rgb(255, 255, 255);
     cursor: pointer;
     outline:none !important;
