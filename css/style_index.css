@@ -10,8 +10,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: rgb(255,235,235);
-    background: radial-gradient(circle, rgba(255,235,235,1) 0%, rgba(255,131,148,1) 100%);
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(191, 148, 228,1) 100%);
     perspective: 1000px;
 }
 
